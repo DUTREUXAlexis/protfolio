@@ -2,18 +2,25 @@
 {
     margin:0;
     padding:0;
+    box-sizing: border-box;
+}
+body
+{
     position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 :root
 {
-    --blue:#3E7DA4;
+    --grey:#0D1321;
 }
 .leftscreen
 {
     position: fixed;
     border: solid;
-    border-color: var(--blue);
-    background: var(--blue);
+    border-color: white;
+    background: var(--grey);
     height:100vh;
 }
 .Titre
@@ -30,9 +37,11 @@ section {
 }
 #home
 {
-    background: #CCD5FF;
+    background: #333745;
 }
 #Hobbies
 {
     background: #D8F2FF;
 }
+
+

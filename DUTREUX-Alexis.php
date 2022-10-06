@@ -7,29 +7,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="DUTREUX-Alexis.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <title></title>
 </head>
 <body class="">
 <main class="row">
-    <div class="leftscreen d-flex col col-1 mt-5 pt-5" style="z-index: 1000;">
-        <ul>
-            <li class="mb-3 list-unstyled"><a class="btn " href="#home">HOME</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="leftscreen d-flex  mt-5 pt-5" style="width: 13.5%;z-index: 1000; ">
+        <ul style="margin-right:25%;">
+            <li class="mb-3 mt-3 list-unstyled"><a class="btn col text-light" style="background: #333745;  " href="#home">HOME</a></li>
             <li class="mb-3 list-unstyled"><a class="btn " href="#About me">About me</a></li>
             <li class="mb-3 list-unstyled"><a class="btn " href="#Hobbies">Hobbies</a></li>
             <li class="mb-3 list-unstyled"><a class="btn " href="#Contact">Contact</a></li>
         </ul>
     </div>
-    <nav class="border bg-primary" style="padding-right:30vh; position:fixed; z-index: 1000;">
-        <div class="container mt-5 p-3" style="width: 0">
-            <p></p>
+    <nav class="border" style="padding-right:100%; position:fixed; z-index: 1000;background:#0D1321; border-color:#0D1321">
+        <div class="container mt-5 " style="width: 0">
+            <p>dqsddafaza</p>
         </div>
     </nav>
     <section id="home">
         <div class="col">
-            <div class="Titre fixed col" style="margin-top:5%; margin-left:10%;">
-                <p class=" ">&lt;h1></p>
-                <h1 class="event1 p-0" style="font-size: 550%;"></h1>
-                <p>&lt;/h1></p>
+            <div class="Titre fixed col" style="margin-top:5%; margin-left:14%;">
+                <p class="" style="font-style: italic;"><span style="color: #F5D02A">&lt;h1</span> <span style="color: #E4E4E4">class=</span><span style="color: #afe63a;">"Titre"</span><span style="color: #F5D02A">></span></p>
+                <h1 class="event1 p-0" style="font-size: 550%; color: #E4E4E4;"></h1>
+                <p style="font-style: italic ;color: #F5D02A">&lt;/h1></p>
             </div>
         </div>
     </section>
@@ -42,6 +60,7 @@
     <section id="Contact">
         <h1>Contact</h1>
     </section>
+
 
 
 

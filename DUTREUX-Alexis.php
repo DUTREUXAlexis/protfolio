@@ -13,46 +13,15 @@
 <body class="">
 <main class="row">
    <div class="leftscreen d-flex mt-5" style="width: 13.5%;z-index: 1000; margin-right: 10%">
-        <ul class="d-flex row" style="margin:0; padding:0; margin-right: 7.5%">
+        <ul class="d-flex row mt-3" style="margin:0; padding:0; margin-right: 7.5%">
             <li class="col mb-3 mt-3 list-unstyled "><a class="home btn button col text-light border border-light" href="#home"><i class="bi bi-house-fill"></i> HOME</a></li>
             <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#About me"><i class="bi bi-file-earmark-person"></i> About me</a></li>
-            <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#Hobbies"><i class="bi bi-images"></i> Hobbies</a></li>
             <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#Contact"><i class="bi bi-telephone-inbound"></i> Contact</a></li>
-            <div class="col text-light mb-5" style="margin-right: 20%">
+            <div class="col text-light mb-5" style="margin-right: 20%; margin-bottom:15%">
                 <h2>DUTREUX</h2>
                 <h3>Alexis</h3>
-                <p style="font-style: italic;">Etudiant en BTS SIO, option SLAM.</p>
-                <h5 style="font-style: italic">Developpement</h5>
-                <ul>
-                    <li>
-                        php
-                    </li>
-                    <li>
-                        Symfony 4 et 6
-                    </li>
-                    <li>
-                        Python
-                    </li>
-                    <li>
-                        SQL
-                    </li>
-                    <li>
-                        Git
-                    </li>
-                </ul>
-                <h5 style="font-style: italic">Référencement</h5>
-                <ul>
-                    <li>
-                        Quelques notions de base
-                    </li>
-                </ul>
-                <h5 style="font-style: italic" >Réseau</h5>
-                <ul>
-                    <li>
-                        Quelques notions de base
-                    </li>
-                </ul>
-            </div>
+                <p style="font-style: italic; margin-bottom: 275%">Etudiant en BTS SIO, option SLAM.</p>
+
 
         </ul>
 
@@ -64,7 +33,7 @@
 
 
 
-    <nav class="border d-flex " style="padding-right:100%; position:fixed; z-index: 1000;background:#0D1321; border-color:#0D1321">
+    <nav class="border d-flex" style="padding-right:100%; position:fixed; z-index: 1000;background:#0D1321; border-color:#0D1321">
         <h4 class="text-light p-1">Mes réseaux</h4>
         <div class="" style="padding-left:50%;width: 0; color: #fff">
             <a class="btn btn-danger"  style="margin-left: 180vh" href="https://www.google.com/"><i class="bi bi-x-square"></i>Quitter</a>
@@ -118,24 +87,117 @@
             </div>
         </div>
     </section>
+
+
     <section id="About me">
-        <h1>About me</h1>
-    </section>
-    <section id="Hobbies">
-        <h1>Hobbies</h1>
-    </section>
-    <section id="Contact" class="" style="">
         <div>
-            <div class="row border bg-light p-1" style="height: ;width: 100%; margin-left: 13.3%; margin-top: 2%">Invite de commandes</div>
-            <div class="row" style="margin-left: 13%; margin-bottom: 20%">
-                <p style="color:#00ff19;" class="" >Portfolio [version 1.0.0.2022]</p>
-                <p style="color:#00ff19;" class="">All rights reserved</p>
-                <p style="color:#00ff19;">C:\>cd Portfolio\DUTREUX-Alexis\Contacts</p>
-                <p style="color:#00ff19;">C:\Portfolio\DUTREUX-Alexis\Contacts> dir Contacts</p>
-                <p style="color:#00ff19;">Répertoire de C:Portfolio\DUTREUX-Alexis\Contacts></p>
-                <p style="color:#00ff19;">Téléphone &lt;DIR> 06.18.32.57.96</p>
-                <p style="color:#00ff19;">email &lt;DIR> dutreuxa@gmail.com</p>
-                <p style="color:#00ff19;">C:\Portfolio\DUTREUX-Alexis\Contacts><span class="event2"></span></p>
+            <div style="position:relative; margin-right: 75vh">
+                <h1 >Me ,myself and I</h1>
+                <h5 style="font-style: italic">
+                    <span style="color: #0F07A7; font-style: italic; font-weight: bold">
+                        SELECT
+                    </span>
+                    *
+                    <span style="color: #0F07A7; font-style: italic; font-weight: bold">
+                        FROM
+                    </span>
+                    ALEXIS
+                    <span style="color: #0F07A7; font-style: italic; font-weight: bold">
+                        WHERE
+                    </span>
+                    Informations = Formations;
+                    </h5>
+            </div>
+            <div>
+                <table class="table mt-4 " style="margin-left: 15vh">
+                    <thead>
+                    <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">Libellé</th>
+                        <th scope="col">Détails</th>
+                        <th scope="col">Durée</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>BAC Scientifique</td>
+                        <td>Option ISN</td>
+                        <td>2017-2020</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>BTS SIO</td>
+                        <td>Option SLAM</td>
+                        <td>2021-2023</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-5">
+                <h5 style="font-style: italic">
+                    <span style="color: #0F07A7; font-style: italic; font-weight: bold">
+                        SELECT
+                    </span>
+                    *
+                    <span style="color: #0F07A7; font-style: italic; font-weight: bold">
+                        FROM
+                    </span>
+                    ALEXIS
+                    <span style="color: #0F07A7; font-style: italic; font-weight: bold">
+                        WHERE
+                    </span>
+                    Informations = Expérience professionnelle;
+                </h5>
+            </div>
+            <div>
+                <table class="table mt-4 " style="margin-left: 15vh">
+                    <thead>
+                    <tr>
+                        <th scope="col">id</th>
+                        <th scope="col">Libellé</th>
+                        <th scope="col">Détails</th>
+                        <th scope="col">Durée</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Mcdonald's, Chalzeule</td>
+                        <td>Équipier polyvalent</td>
+                        <td>3 mois</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>N3WEB, Miserey Salines</td>
+                        <td>Developpeur et Référenceur Stagiaire</td>
+                        <td>4 semaines</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mt-5 fixed text-center" style="font-size: 125%;font-style: italic; margin-left: 30vh">
+                <p>Je souhaiterais suite à mes études trouver un emplois dans le developpement web ou le référencement.</p>
+                <p>De plus, je pratique les danses de compétitions, Latines et Standards comme <span style="color: #0F07A7;font-weight: bold" class="event3"></span></p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="Contact">
+        <div>
+            <div class="row border bg-light p-1" style="height: ;width: 100%; margin-left: 13.3%; margin-top: 4%">Invite de commandes</div>
+            <div class="row terminal" style="margin-left: 13%; margin-bottom: 20%">
+                <p>Portfolio [version 1.0.0.2022]</p>
+                <p>All rights reserved</p>
+                <p>C:\>cd Portfolio\DUTREUX-Alexis\Contacts</p>
+                <p>C:\Portfolio\DUTREUX-Alexis\Contacts> dir Contacts</p>
+                <p>Répertoire de C:Portfolio\DUTREUX-Alexis\Contacts></p>
+                <p>Téléphone &lt;DIR> 06.18.32.57.96</p>
+                <p>email &lt;DIR> dutreuxa@gmail.com</p>
+                <p>C:\Portfolio\DUTREUX-Alexis\Contacts><span class="event2"></span></p>
 
             </div>
         </div>

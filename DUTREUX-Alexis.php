@@ -12,9 +12,12 @@
 </head>
 <body class="">
 <main class="row">
-   <div class="leftscreen d-flex mt-5" style="width: 13.5%;z-index: 1000; margin-right: 10%">
+   <div class="leftscreen d-flex" style="width: 13.5%;z-index: 1000; margin-right: 10%">
+
         <ul class="d-flex row mt-3" style="margin:0; padding:0; margin-right: 7.5%">
-            <li class="col mb-3 mt-3 list-unstyled "><a class="home btn button col text-light border border-light" href="#home"><i class="bi bi-house-fill"></i> HOME</a></li>
+            <img src="moi.PNG" alt="" style="border-radius: 50%">
+            <h5 class="text-light mt-3">Menu</h5>
+            <li class="col mb-3 list-unstyled "><a class="home btn button col text-light border border-light" href="#home"><i class="bi bi-house-fill"></i> HOME</a></li>
             <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#About me"><i class="bi bi-file-earmark-person"></i> About me</a></li>
             <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#Contact"><i class="bi bi-telephone-inbound"></i> Contact</a></li>
             <div class="col text-light mb-5" style="margin-right: 20%; margin-bottom:15%">
@@ -33,29 +36,7 @@
 
 
 
-    <nav class="border d-flex" style="padding-right:100%; position:fixed; z-index: 1000;background:#0D1321; border-color:#0D1321">
-        <h4 class="text-light p-1">Mes réseaux</h4>
-        <div class="" style="padding-left:50%;width: 0; color: #fff">
-            <a class="btn btn-danger"  style="margin-left: 180vh" href="https://www.google.com/"><i class="bi bi-x-square"></i>Quitter</a>
-        </div>
-        <div class="" style="padding-left:50%;width: 0; color: #fff">
-            <a class="btn mt-2 pt-1"  style="margin-left: 1vh;background: #C15EE6" href="https://www.instagram.com/alexis.dutreux/">
-                    Instagram<i class="bi bi-instagram"></i>
-            </a>
-        </div>
-        <div class="" style="padding-left:50%;width: 0; color: #fff">
-            <a class="btn mt-2 pt-1"  style="margin-left: 15vh;background: #C15EE6" href="https://www.instagram.com/alexis.dutreux/">
-                Snapchat<i class="bi bi-instagram"></i>
-            </a>
-        </div>
-        <div class="" style="padding-left:50%;width: 0; color: #fff">
-            <a class="btn mt-2 pt-1"  style="margin-left: 29vh;background: #C15EE6" href="https://www.instagram.com/alexis.dutreux/">
-                Instagram<i class="bi bi-instagram"></i>
-            </a>
-        </div>
-
-
-    </nav>
+    
 
 
 
@@ -77,21 +58,21 @@
 
     <section id="home">
         <div class="col">
-            <div class="Titre fixed col" style="margin-top:10%; margin-left:14%;">
+            <div class="Titre fixed col" style="margin-top:5%; margin-left:14%;">
                 <p class="" style="font-style: italic;"><span style="color: #F5D02A">&lt;h1</span> <span style="color: #E4E4E4">class=</span><span style="color: #afe63a;">"Titre"</span><span style="color: #F5D02A">></span></p>
                 <h1 class="event1 p-0" style="font-size: 550%; color: #E4E4E4;"></h1>
                 <p style="font-style: italic ;color: #F5D02A">&lt;/h1></p>
                 <p style="font-style: italic ;color: #F5D02A">&lt;p <span style="color: #E4E4E4">class=</span><span style="color: #afe63a;">"font-italic"</span>></p>
-                <p style="font-size: 200%; color: #E4E4E4;" >Vous trouverez toutes les informations me concernant sur ce site ...</p>
+                <p style="font-size: 200%; color: #E4E4E4; font-style: italic" >Vous trouverez toutes les informations me concernant sur ce site ...</p>
                 <p style="font-style: italic ;color: #F5D02A">&lt;/p></p>
             </div>
         </div>
     </section>
 
 
-    <section id="About me">
+    <section id="About me" class=" bg-light">
         <div>
-            <div style="position:relative; margin-right: 75vh">
+            <div style="position:relative;">
                 <h1 >Me ,myself and I</h1>
                 <h5 style="font-style: italic">
                     <span style="color: #0F07A7; font-style: italic; font-weight: bold">
@@ -185,24 +166,23 @@
 
     </section>
 
+        <div class="wrapper border border-light bg-dark" style="width: 80vh; height:50vh;" >
+                <header class="row border bg-light p-1" style="width: 80vh;">Invite de commandes <a href=""></a></header>
+                <div class="row terminal">
+                    <p>Portfolio [version 1.0.0.2022]</p>
+                    <p>All rights reserved</p>
+                    <p>C:\>cd Portfolio\DUTREUX-Alexis\Contacts</p>
+                    <p>C:\Portfolio\DUTREUX-Alexis\Contacts> dir Contacts</p>
+                    <p>Répertoire de C:Portfolio\DUTREUX-Alexis\Contacts></p>
+                    <p>Téléphone &lt;DIR> 06.18.32.57.96</p>
+                    <p>email &lt;DIR> dutreuxa@gmail.com</p>
+                    <p>C:\Portfolio\DUTREUX-Alexis\Contacts><span class="event2"></span></p>
 
-    <section id="Contact">
-        <div>
-            <div class="row border bg-light p-1" style="height: ;width: 100%; margin-left: 13.3%; margin-top: 4%">Invite de commandes</div>
-            <div class="row terminal" style="margin-left: 13%; margin-bottom: 20%">
-                <p>Portfolio [version 1.0.0.2022]</p>
-                <p>All rights reserved</p>
-                <p>C:\>cd Portfolio\DUTREUX-Alexis\Contacts</p>
-                <p>C:\Portfolio\DUTREUX-Alexis\Contacts> dir Contacts</p>
-                <p>Répertoire de C:Portfolio\DUTREUX-Alexis\Contacts></p>
-                <p>Téléphone &lt;DIR> 06.18.32.57.96</p>
-                <p>email &lt;DIR> dutreuxa@gmail.com</p>
-                <p>C:\Portfolio\DUTREUX-Alexis\Contacts><span class="event2"></span></p>
+                </div>
 
-            </div>
         </div>
 
-    </section>
+
 
 
 

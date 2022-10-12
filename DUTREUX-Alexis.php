@@ -18,44 +18,19 @@
             <img src="moi.PNG" alt="" style="border-radius: 50%">
             <h5 class="text-light mt-3">Menu</h5>
             <li class="col mb-3 list-unstyled "><a class="home btn button col text-light border border-light" href="#home"><i class="bi bi-house-fill"></i> HOME</a></li>
+            <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#BTS SIO"><i class="bi bi-book"></i> BTS SIO</a></li>
+
+
             <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#About me"><i class="bi bi-file-earmark-person"></i> About me</a></li>
+            <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#VEILLE"><i class="bi bi-pc-display"></i> Veille</a></li>
+
             <li class="col mb-3 list-unstyled"><a class="btn button col text-light border border-light" href="#Contact"><i class="bi bi-telephone-inbound"></i> Contact</a></li>
             <div class="col text-light mb-5" style="margin-right: 20%; margin-bottom:15%">
                 <h2>DUTREUX</h2>
                 <h3>Alexis</h3>
                 <p style="font-style: italic; margin-bottom: 275%">Etudiant en BTS SIO, option SLAM.</p>
-
-
         </ul>
-
     </div>
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <section id="home">
         <div class="col">
             <div class="Titre fixed col" style="margin-top:5%; margin-left:14%;">
@@ -68,8 +43,6 @@
             </div>
         </div>
     </section>
-
-
     <section id="About me" class=" bg-light">
         <div>
             <div style="position:relative;">
@@ -166,26 +139,94 @@
 
     </section>
 
-        <div class="wrapper border border-light bg-dark" style="width: 80vh; height:50vh;" >
-                <header class="row border bg-light p-1" style="width: 80vh;">Invite de commandes <a href=""></a></header>
-                <div class="row terminal">
-                    <p>Portfolio [version 1.0.0.2022]</p>
-                    <p>All rights reserved</p>
-                    <p>C:\>cd Portfolio\DUTREUX-Alexis\Contacts</p>
-                    <p>C:\Portfolio\DUTREUX-Alexis\Contacts> dir Contacts</p>
-                    <p>Répertoire de C:Portfolio\DUTREUX-Alexis\Contacts></p>
-                    <p>Téléphone &lt;DIR> 06.18.32.57.96</p>
-                    <p>email &lt;DIR> dutreuxa@gmail.com</p>
-                    <p>C:\Portfolio\DUTREUX-Alexis\Contacts><span class="event2"></span></p>
 
+
+    <section id="BTS SIO" class=" bg-light">
+        <div class="text-center" style="margin-left: 15%; margin-right: 5%">
+            <h1 class="mb-5 blue">BTS SIO</h1>
+            <div class="row mt-5">
+                <div class="col">
+                    <h2 class="blue">SLAM</h2>
+                    <h4>Solution logiciel et application métier</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad asperiores at consequuntur cumque dolorum et facilis harum illum incidunt, mollitia natus optio porro sapiente soluta. Inventore nesciunt provident quo.
+                    <hr class="mx-auto" style="width: 50%; background:var(--blue)">
+                    <h5>Matières dominantes</h5>
+                    <ul class="list-unstyled">
+                        <li>Developpement</li>
+                        <li>Base de donnée</li>
+                        <li>Cybersécurité</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h2 class="blue">SISR</h2>
+                    <h4>Solutions d'infrastructure, systèmes et réseaux</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos distinctio dolorem doloremque ea enim fuga id incidunt molestiae nobis officiis, porro provident quasi sunt tenetur unde vel vitae. Voluptate?
+                    <hr class="mx-auto" style="width: 50%; background:var(--blue)">
+                    <h5>Matières dominantes</h5>
+                    <ul class="list-unstyled">
+                        <li>Réseau</li>
+                        <li>Cybersécurité</li>
+                    </ul>
                 </div>
 
+            </div>
         </div>
 
+    </section>
+
+
+
+    <section id="VEILLE" class=" bg-light">
+
+
+    </section>
 
 
 
 
+
+
+
+
+
+
+
+    <section id="Contact" class=" bg-light">
+
+            <h1 class="col" style="margin-left: 15%; margin-bottom: 35%">Contacts</h1>
+            <div class="col" style="margin-right: 25%">
+                <p><h3>Téléphone</h3><span style="font-style: italic">06.18.32.57.96</span></p>
+                <p><h3>Email</h3><span style="font-style: italic">dutreuxa@gmail.com</span></p>
+            </div>
+
+
+
+
+
+        <div id="wrapper" class="wrapper border border-light bg-dark" style="width: 90vh; height:50vh; padding-right: 1.5vh; padding-left: 1.5vh; margin-left:50%" >
+            <div class="row">
+                <header class="col border bg-light" style="width: ;">
+                    Invite de commandes
+                    <a onclick="document.getElementById('wrapper'):style.visibility='hidden'" href="#" class="col close_terminal">
+                        <i class="bi bi-x-lg"></i>
+                    </a>
+                </header>
+            </div>
+
+            <div class="row terminal">
+                <p>Portfolio [version 1.0.0.2022]</p>
+                <p>All rights reserved</p>
+                <p>C:\>cd Portfolio\DUTREUX-Alexis\Contacts</p>
+                <p>C:\Portfolio\DUTREUX-Alexis\Contacts> dir Contacts</p>
+                <p>Répertoire de C:Portfolio\DUTREUX-Alexis\Contacts></p>
+                <p>Téléphone &lt;DIR> 06.18.32.57.96</p>
+                <p>email &lt;DIR> dutreuxa@gmail.com</p>
+                <p>C:\Portfolio\DUTREUX-Alexis\Contacts><span class="event2"></span></p>
+
+            </div>
+
+        </div>
+    </section>
 
 
 </main>

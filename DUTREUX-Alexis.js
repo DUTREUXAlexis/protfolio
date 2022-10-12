@@ -78,7 +78,7 @@
     //---------------------------------------------- Dragable annimation
 
     const wrapper = document.querySelector(".wrapper"),
-    header = wrapper.querySelector("header");
+        header = wrapper.querySelector("header");
 
     function onDrag({movementX, movementY}){
         let getStyle = window.getComputedStyle(wrapper);

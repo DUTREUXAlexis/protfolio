@@ -7,12 +7,13 @@ body
 {
     min-height: 100vh;
     width: 100%;
-    overflow: -moz-scrollbars-vertical;
+    overflow: hidden;
 }
 :root
 {
     --grey:#0D1321;
     --green: #00ff19;
+    --blue: #0F07A7;
 }
 .leftscreen
 {
@@ -41,12 +42,6 @@ section {
 {
     background: #D8F2FF;
 }
-#Contact
-{
-    margin: 0;
-    padding: 0;
-    background: black;
-}
 .button
 {
     background: #333745;
@@ -58,9 +53,28 @@ section {
 }
 .wrapper{
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+
 
 }
+.close_terminal
+{
+    font-size: 150%;
+    color:black;
+    padding: 0 2% 0 2%;
+    margin-left:65%;
+}
+.close_terminal:hover
+{
+    transition: 800ms;
+    color:white;
+    background: red;
+    border-radius: 15%;
+}
+.blue
+{
+    color: var(--blue)
+}
+
+
+
 

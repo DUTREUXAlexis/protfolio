@@ -8,6 +8,7 @@ body
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
+
 }
 :root
 {
@@ -38,10 +39,6 @@ section {
 {
     background: #333745;
 }
-#Hobbies
-{
-    background: #D8F2FF;
-}
 .button
 {
     background: #333745;
@@ -53,22 +50,26 @@ section {
 }
 .wrapper{
     position: absolute;
-
-
 }
 .close_terminal
 {
+    padding: 5px;
+    margin-top: 50%;
+    margin-right: 5%;
     font-size: 150%;
     color:black;
-    padding: 0 2% 0 2%;
-    margin-left:65%;
 }
 .close_terminal:hover
 {
     transition: 800ms;
     color:white;
     background: red;
-    border-radius: 15%;
+    border-radius: 15px;
+}
+.close_terminal:active #Contact
+{
+    transition: 5s;
+    opacity:0;
 }
 .blue
 {

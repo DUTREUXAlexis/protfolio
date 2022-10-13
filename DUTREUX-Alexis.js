@@ -77,8 +77,8 @@
 
     //---------------------------------------------- Dragable annimation
 
-    const wrapper = document.querySelector(".wrapper"),
-        header = wrapper.querySelector("header");
+    const wrapper = document.querySelector(".wrapper")
+
 
     function onDrag({movementX, movementY}){
         let getStyle = window.getComputedStyle(wrapper);
@@ -89,11 +89,11 @@
     }
 
 
-    header.addEventListener("mousedown", ()=>{
-        header.addEventListener("mousemove", onDrag);
+    wrapper.addEventListener("mousedown", ()=>{
+        wrapper.addEventListener("mousemove", onDrag);
     });
     document.addEventListener("mouseup", ()=>{
-        header.removeEventListener("mousemove", onDrag);
+        wrapper.removeEventListener("mousemove", onDrag);
     });
 
 

@@ -1,5 +1,5 @@
-<section id="About me" class="bg-light mx-auto container">
-    <div class="m-5 p-5">
+<section id="About me" class="bg-light mx-auto container" >
+    <div class="m-5 p-5" >
         <div style="position:relative;margin-left: 2%">
             <h1 style="font-size: 350%">Me ,myself and I</h1>
             <h3 style="font-style: italic">

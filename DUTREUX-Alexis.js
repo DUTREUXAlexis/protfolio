@@ -83,7 +83,9 @@
     function onDrag({movementX, movementY}){
         let getStyle = window.getComputedStyle(wrapper);
         let left = parseInt(getStyle.left);
+
         let top = parseInt(getStyle.top);
+
         wrapper.style.left = `${left + movementX}px`;
         wrapper.style.top = `${top + movementY}px`;
     }
@@ -97,6 +99,21 @@
     });
 
 
+    function change(){
+            document.getElementById("wrapper").style.display = "none";
+    }
+
+    function apears(){
+
+        if (document.getElementById("wrapper").style.display === "none")
+        {
+            document.getElementById("wrapper").style.display = "block";
+        }
+        else
+        {
+            console.log("Un terminal est déjà ouvert !")
+        }
+    }
 
 
 

@@ -1,6 +1,6 @@
 <section id="BTS SIO" style="margin-left: 500%">
 
-    <div class="text-center" style="margin-left:5%;padding-left: 10%; padding-right: 5%">
+    <div class="text-center" style="margin-left:5%;padding-left: 10%; padding-right: 5%; z-index: auto">
         <h1 class="mb-5 blue" style="font-weight: bolder ;font-size: 550%">BTS SIO</h1>
         <div class="row mt-5">
             <div class="col">

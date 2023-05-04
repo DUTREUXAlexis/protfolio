@@ -24,13 +24,13 @@
         loop: true,
 
     })
-        .typeString(' Contactez moi !')
+        .typeString(' Contactez-moi !')
         .pauseFor(1000)
         .deleteAll()
-        .typeString(' Appellez moi !')
+        .typeString(' Appellez-moi !')
         .pauseFor(1000)
         .deleteAll()
-        .typeString(' Envoyez moi un mail !')
+        .typeString(' Envoyez-moi un mail !')
         .pauseFor(1000)
         .deleteAll()
         .start()
@@ -107,7 +107,7 @@
 
         if (document.getElementById("wrapper").style.display === "none")
         {
-            document.getElementById("wrapper").style.display = "block";
+            document.getElementById("wrapper").style.display = "inline";
         }
         else
         {
@@ -115,8 +115,33 @@
         }
     }
 
+    document.querySelector('#contact-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        e.target.elements.name.value = '';
+        e.target.elements.email.value = '';
+        e.target.elements.message.value = '';
+    });
 
+    // portfolio
+    $(".gallery ul li a").click(function () {
+        var itemID = $(this).attr("href");
+        $(".gallery ul").addClass("item_open");
+        $(itemID).addClass("item_open");
+        return false;
+    });
+    $(".close").click(function () {
+        $(".port, .gallery ul").removeClass("item_open");
+        return false;
+    });
 
+    $(".gallery ul li a").click(function () {
+        $("html, body").animate(
+            {
+                scrollTop: parseInt($("#top").offset().top)
+            },
+            400
+        );
+    });
 
 
 
